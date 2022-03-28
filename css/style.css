@@ -1,0 +1,362 @@
+/* GLOBAL CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.global-heading{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 50px;
+}
+.global-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+/* Google font */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Oswald:wght@300;400;500&display=swap');
+/* header part */
+header{
+width: 100%;
+float: left;
+padding: 1px 0px;
+background-color: #303030;
+}
+.logo-part{
+width: 30%;
+float: left;
+}
+.logo-part a img{
+width: 30%;
+margin: 20px 0px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+}
+.menu-part nav{
+
+}
+.menu-part nav ul{
+margin: 40px 0px;
+}
+.menu-part nav ul li{
+display: inline-block;
+margin: 0px 10px;
+}
+.menu-part nav ul li a{
+ font-family: 'Oswald', sans-serif;
+text-decoration: none;
+color: white;
+font-weight: 700;
+font-size: 20px;
+}
+.search-part{
+    width: 20%;
+    float: left;
+    margin: 30px 0px;
+}
+.search-part input{
+padding: 8px;
+border-radius: 30px;
+border: 3px solid black
+}
+.search-par input ::placeholder{
+
+}
+.search-part i{
+
+}
+/* hero section */
+#hero{
+width: 100%;
+float: left;
+background: url(../img/hero.png) no-repeat center;
+background-size: cover;
+padding: 250px 0px;
+}
+#hero h1{
+color: white;
+margin: 10px 0px;
+font-size:80px;
+}
+
+#hero p{
+color: white;
+font-size:20PX;
+}
+#hero a button{
+color: white;
+margin: 20px 0px;
+padding: 5px 6px;
+background-color:#e8631c;
+/* width: 100px; */
+}
+/* feature section */
+#feature{
+    width: 100%;
+    float: left;
+    background: url(/img/fbg.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.f-wp{
+width: 100%;
+float: left;
+text-align: center;
+font-size: 20px;
+color: white;
+}
+.f-wp h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.f-dp{
+    width: 100%;
+    float: left;
+}
+.feature-box{
+width: 30%;
+float: left;
+/* margin: 0% 1.5%; */
+text-align: center;
+background-color: #303030;
+margin: 20px 20px;
+color: white;
+}
+.feature-box img{
+width: 100%;
+}
+.feature-box h3{
+font-size: 30px;
+}
+.feature-box p{
+ font-size: 18px;
+}  
+.f-b-d{
+    padding: 30px;
+} 
+/* feature section 2    */
+#feature2{
+    width: 100%;
+    float: left;
+    background:url(/img/fbg2.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.f-wp2{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    }
+    .f-wp2 h2{
+        font-size: 45px;
+        font-weight: 700;
+    }
+.feature-box2{
+    width: 30%;
+    float: left;
+    margin: 20px 20px;
+    text-align: center;
+    background-color: #e8631c;
+}
+.feature-box2 img{
+    width: 80px;
+    margin-top: 20px ;
+    margin-bottom: 5px;
+}
+.f-b-d2{
+
+}
+.f-b-d2 h2{
+  background-color: #303030;  
+  margin: 15px 20px;
+  color: white;
+}
+/* feature section 3 */
+#feature3{
+    width: 100%;
+    float: left;
+    background: url(/img/fbg.png) no-repeat center;
+    background-size: cover;
+}
+.f-imgp3{
+    width: 50%;
+float: left;
+}
+.f-wp3{
+width: 50%;
+float: left;
+margin: 400px 0px;
+text-align: center;
+}
+.f-wp3 h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.btn{
+    background-color:#303030;
+    padding: 8px 40px;
+    color: white;
+    margin-top: 30px; 
+}
+/* feature section 4 */
+#feature4{
+    width: 100%;
+    float: left;
+    background: url(/img/fbg.png) no-repeat center;
+    background-size: cover;
+}
+.f-wp4{
+    width: 50%;
+    float: left;
+    margin: 400px 0px;
+    text-align: center;
+}
+.f-wp4 h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.f-imgp4{
+    width: 50%;
+float: left;
+}
+/* our statistics */
+#os{
+    width: 100%;
+    float: left;
+    background-color: #303030; 
+}
+.osdp{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 100px 0px;
+}
+.osdp h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.osp{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+.osnp{
+    width: 30%;
+    float: left;
+    margin: 20px 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* TEXT FEATURE SECTION5 */
+#tfs{
+    width: 100%;
+    float: left;
+    background: url(/img/fbg5.png) no-repeat center;
+    padding: 350px 0px;
+
+}
+.tfp{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 50px; 
+    text-align: center;  
+}
+.tfh{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* ss section  */
+#ss{
+width: 100%;
+float: left;
+background-color: #e8631c;
+padding: 100px 0px;
+}
+.sswp{
+    text-align: center;
+}
+#ss h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+#ss p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 20px; 
+    text-align: center; 
+    padding: 20px 0px;
+}
+#vvs{
+    color: #be222230;
+}
+/* footer section  */
+#footer{
+    width: 100%;
+    float: left;
+    background-color:#303030;
+    padding: 50px 0px; 
+ 
+}
+.fh{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 00;
+    color: white;
+    font-size: 25px;
+}
+.fp{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white; 
+    font-size: 15px;
+}
+.musicology{
+    width: 25%;
+    float: left;
+    /* padding-right: 30px ; */
+}
+.about{                                                                                                                                                                                                                                                                                                                                                 
+    width: 25%;
+    float: left;
+    padding-left: 100px ;
+}
+.services{
+    width: 25%;
+    float: left;
+    padding-left: 100px ;
+}
+.others{
+    width: 25%;
+    float: left;
+    padding-left: 100px ;
+}

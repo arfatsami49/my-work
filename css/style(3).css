@@ -1,0 +1,611 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Dosis', sans-serif; */
+
+/* global css  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.global-heading{
+    color: black;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+}
+.global-p{
+     color: #97a4be;
+     font-family: 'Dosis', sans-serif;
+}
+.global-btn{
+    padding: 10px ;
+width: 150px;
+color: black;
+background-color: #00fff1;
+border-radius: 10px;
+}
+body{
+    font-family: 'Dosis', sans-serif; 
+}
+
+/* header-part */
+header{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+   padding: 8px 100px;
+}
+.logo-part{
+width: 30%;
+float: left;
+}
+.logo-part a img{
+    width: 30%;
+    margin: 20px 20px;
+    }
+.menu-part{
+    width: 40%;
+    float: left;
+}
+.menu-part nav{
+
+}
+.menu-part nav ul{
+    
+}
+.menu-part nav ul li{
+    display: inline-block;
+padding: 20px ;
+padding-left: 40px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+color: white;
+font-size: 20px
+
+}
+.btn-part{
+    width: 30%;
+    float: left;
+    padding: 20px 0px;
+    padding-left: 70px;
+}
+.i-s{
+    width: 5%;
+    float: right;
+    padding: 4px 0px;
+    padding-right: 80px;
+    color: white;
+    font-size: 22px;
+}
+
+
+/* hero part css  */
+
+#hero{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    padding-bottom: 50px;
+}
+.wp{
+    width: 50%;
+    float: left;
+    color: white;
+margin: 200px 0px; 
+padding-left: 50px;
+}
+.wp h1{
+    font-weight: 600;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+.wp p{
+    padding-bottom: 30px;
+}
+.hero-btn a button{
+margin: 0px 10px;
+}
+.hero-btn1{
+padding: 10px 5px;
+width: 150px;
+color: black;
+background-color: #00fff1;
+border-radius: 10px;
+}
+.hero-btn2{
+   
+    
+    padding: 10px 5px;
+    width: 150px;
+    color: white;
+    background: transparent;
+    border-radius: 10px;
+    border: 1.9px solid white;
+}
+.imgp{
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 180px;
+    left: 180px;
+
+}
+
+/* section2 */
+
+
+.feature-wp{
+    width: 100%;
+    float: left;
+text-align: center;
+color:#233148;
+font-family:  'Dosis', sans-serif;
+padding-top: 200px ;
+}
+.h-line{
+width: 8%;
+border: 2px solid #00fff1;
+position: relative;
+top: 80px;
+right: -563px;
+margin-bottom: 200px;
+}
+.feture-bp{
+    width: 100%;
+    float: left;
+}
+.f-boxes{
+    width: 15%;
+    float: left;
+    text-align: center;
+    border: 2px solid;
+    padding: 10px 10px;
+    margin: 0px 25px;
+    margin-left: 30px;
+    position: relative;
+    right: -25px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+
+/* section3 */
+
+
+.s3{
+    width: 100%;
+    float: left;
+}
+.blank-img-p{
+    width: 50%;
+    float: left;
+}
+.blank-img-p img{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    right: 68px;
+}
+.wp-p{
+    width: 50%;
+    float: left;
+    padding: 100px 50px;
+}
+.wp-p h1{
+padding-bottom: 40px;
+}
+.wp-p p{
+
+}
+
+/* section4 */
+
+.s-4{
+width: 100%;
+float: left;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+.s-4-wp{
+
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 60px;
+    padding-right: 100px;
+
+}
+.s-4-wp h1{
+
+padding-bottom: 40px;
+
+}
+.s-4-wp p{
+
+    padding-bottom: 40px;
+
+}
+.s4-btn{
+
+    padding: 15px ;
+    width: 180px;
+    color: black;
+    background-color: #00fff1;
+    border-radius: 10px;
+}
+.s-4-imgp{
+
+    width: 50%;
+    float: left;
+}
+
+/* section5 */
+
+.s-5{
+
+    width: 100%;
+    float: left;
+
+}
+.s-5-imgp{
+
+    width: 50%;
+    float: left;
+
+}
+.s-5-wp{
+
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+
+}
+.div1{
+
+    margin-bottom: 20px;
+    border: 1px solid;
+    padding: 20px 0px;
+    color: #233148;
+    font-family: 'Dosis', sans-serif;
+
+    }
+    .div1 img{
+
+       float: left;
+       padding-left: 20px;
+
+    }
+    .div1 h3{
+
+    padding-left: 70px;
+
+    }
+    .div2{
+
+        margin-bottom: 20px;
+        border: 1px solid;
+    padding: 20px 0px;
+    color: #233148;
+    font-family: 'Dosis', sans-serif;
+
+    }
+    .div2 img{
+
+       float: left;
+       padding-left: 20px;
+
+    }
+    .div2 h3{
+
+        padding-left: 70px;
+    }
+    .div2 p{
+
+        padding-left: 70px;
+
+    }
+    .div3{
+
+        margin-bottom: 20px;
+        border: 1px solid;
+    padding: 20px 0px;
+    color: #233148;
+    font-family: 'Dosis', sans-serif;
+
+    }
+    .div3 img{
+
+       float: left;
+       padding-left: 20px;
+
+    }
+    .div3 h3{
+
+        padding-left: 70px;
+
+    }
+    .div4{
+
+        /* margin-bottom: 20px; */
+        border: 1px solid;
+    padding: 20px 0px;
+    color: #233148;
+    font-family: 'Dosis', sans-serif;
+
+    }
+    .div4 img{
+
+       float: left;
+       padding-left: 20px;
+
+    }
+    .div4 h3{
+
+        padding-left: 70px;
+
+    }
+
+    /* section6 css */
+
+    #s-6{
+
+        width: 100%;
+    float: left;
+    padding-top: 100px;
+
+    }
+    .s-6-img-p{
+
+        width: 50%;
+    float: left;
+    padding-left: 80px;
+
+    }
+    .s-6-wp{
+
+        width: 50%;
+    float: left;
+    padding-left: 70px;
+    padding-top: 150px;
+    
+}
+    .s3h{
+
+        color: #233148;
+        font-weight: 600; 
+    }
+    .s3-tik{
+
+        width: 100%;
+    float: left;
+    margin-top: 20px;
+
+    }
+    .s3-tik img{
+
+        width: 12px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+    background-color: #33d2fd;
+    border-radius: 100%;
+    text-align: center;
+
+    }
+    .s3-tik h4{
+
+        width: 50%;
+    float: left;
+
+    }
+    .s3-global-p{
+
+        color: #233148;
+    margin-top: 100px;
+
+    }
+    .imgm{
+
+        z-index: 1;
+        position: relative;
+        left: 150px;
+    }
+    .imgl{
+
+z-index: 0;
+position: relative;
+top: -368.5px;
+left: 720px;
+
+    }
+    .imgr{
+
+z-index: 0;
+position: relative;
+top: 0px;
+left: 30px;
+
+    }
+
+    /* section 7 css */
+
+    .s-7{
+
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-color: #223047;
+        position: relative;
+        top: -400px;
+        padding: 200px 0px;
+
+    }
+
+    /* section 8 css  */
+
+    .s-8{
+
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: -200px ;
+        padding-bottom: 150px;
+
+    }
+    
+    .s8h{
+
+        font-weight: 600;
+        font-family: 'Dosis', sans-serif;
+        color: #233148;  
+        padding-bottom: 25px;
+
+    }
+    .s8p{
+
+        
+        color: #233148;
+        font-family: 'Dosis', sans-serif; 
+        padding-bottom: 25px;
+    }
+
+    /* section 9 css */
+
+    .s-9{
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-color: #223047;
+        padding: 100px 0px;
+    }
+    .s-9 p{
+        color: #00fff1;
+    }
+
+    /* section 10 css */
+
+    .s-10{
+        width: 100%;
+        float: left;
+        padding: 50px 200px;
+
+    }
+
+    .s10-img-p{
+        width: 50%;
+        float: left;
+    }
+
+    .s10-wp{
+        width: 50%;
+        float: left;
+        padding-top: 180px;
+        padding-left: 40px;
+    }
+
+    .s10-h{
+        color: #233148;
+        padding-bottom: 25px;
+    }
+
+    .s10-wp p{
+        padding-bottom: 25px;
+    }
+
+    .googlepic{
+        padding-left: 30px;
+    }
+
+    .position-btn{
+        padding: 15px 30px;
+        width: 200px;
+        color: black;
+        background-color: #00fff1;
+        position: relative;
+        top: 200px;
+        right: 180px;
+    }
+
+    /* footer css */
+
+    #footer{
+        width: 100%;
+        float: left;
+        padding: 200px 100px; 
+        padding-bottom: 200px;
+     
+    }
+    .fh{
+        font-weight: 600;
+        color: #233148;
+    }
+    .fp{
+        color: #233148;
+        font-size: 15px;
+    }
+    .company{
+        width: 25%;
+        float: left;
+    }
+    .development{                                                                                                                                                                                                                                                                                                                                                 
+        width: 25%;
+        float: left;
+        padding-left: 100px ;
+    }
+    .community{
+        width: 25%;
+        float: left;
+        padding-left: 100px ;
+    }
+    .info{
+        width: 25%;
+        float: left;
+        padding-left: 100px ;
+    }
+    .footer-details{
+        width: 100%;
+        float: left;  
+        text-align: center; 
+        color: #233148;
+        padding-top: 100px;
+    }
+    .footer-btn{
+        background-color: #33d2fd;
+        color: white;
+        padding: 10px ;
+        width: 150px;
+        color: #233148;
+        position: relative;
+        top: 50px;
+        right: -300px;
+        border-radius: 5px;
+    }
+
+    /* last part css */
+
+    #copyright{
+        width: 100%;
+        float: left;
+        background-color: #233148;
+        color: white;
+        margin: 0px 0px;
+        padding: 30px 0px;
+    }
+    h4{
+        width: 50%;
+        float: left;  
+        padding-left: 100px ; 
+        color: #00fff1;
+    }
+    .cdn-icons{
+        width: 30%;
+        float: right;
+        margin: 0px 20px;
+    }

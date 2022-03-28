@@ -1,0 +1,10 @@
+#about-img{
+    border: 3px solid rgb(117, 22, 22);
+}
+
+.logo{
+    width: 150px;
+}
+.s:hover{
+    text-decoration: underline;
+}

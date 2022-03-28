@@ -1,0 +1,544 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+
+/* global css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;              
+}
+.global-heading{
+
+color: white;
+font-weight: 600;
+font-family: 'Work Sansbold', sans-serif;
+
+}
+.global-p{
+
+color: #233148;
+font-family: 'Work Sans', sans-serif;
+
+}
+.global-button{
+
+background: transparent;
+color: white;
+padding: 10px ;
+width: 150px;
+border: 2px solid white;
+border-radius: 10px;
+
+}
+body{
+
+    font-family: 'Work Sans', sans-serif;
+}
+/* header part  */    
+#header{
+width: 100%;
+
+float: left;
+
+background: url(../img/class9herobg.png) no-repeat center;
+
+background-size: cover;
+
+padding: 15px 0px;
+
+/* margin-bottom: -220px; */
+
+}  
+.main-header{
+
+    width: 100%;
+    float: left;
+    position: sticky;
+    top: 0;
+}
+.logo-part{
+
+width: 40%;
+float: left;
+
+}
+.menu-part{
+
+width: 60%;
+float: left;
+text-align: end;
+
+}
+.menu-part nav ul{
+
+margin: 20px 0px;
+
+}
+.menu-part nav ul li{
+
+    display: inline-block; 
+    margin: 0px 20px;
+}
+.menu-part nav ul li a{
+
+text-decoration: none;
+color: white;
+font-size: 20px
+
+}
+.hero{
+
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 200px;
+   
+}
+.hero h1{
+
+}
+.hero p{
+
+color: white;
+margin: 25px 0px; 
+
+}
+.hero img{
+position: relative;
+top: 125px;
+z-index: 0;
+}
+.global-button01{
+    background-color: white;
+color: black;
+padding: 10px ;
+width: 150px;
+border: 2px solid white;
+border-radius: 10px;
+}
+.hero-btn{
+margin-bottom: 30px;
+}
+
+.hero-btn a{
+    
+}
+.hero-btn a button{
+
+margin: 10px 10px;
+
+}
+
+/* feature section */
+
+#features{
+width: 100%;
+float: left;
+text-align: center;
+padding: 400px 0px;
+background: url(../img/class9featurebg.png) no-repeat center;
+background-size: cover;
+margin-top: -190px;
+z-index: 1;
+backface-visibility: hidden;
+}
+
+.f-img-part{
+width: 35%;
+float: left;
+}
+
+.f-img-part img{
+
+}
+
+.f-details-part{
+    width: 65%;
+    float: left;
+    padding: 50px;
+}
+
+.f-d-b1{
+
+    width: 50%;
+float: left;
+position: relative;
+
+}
+
+.feature-box1{
+    padding: 30px;
+    margin-right: 60px;
+    box-shadow: 0px 0px 11px rgb(0, 0, 0);
+border-radius: 20px;
+margin-top: -100px;
+    
+}
+.feature-box2{
+    padding: 30px;
+    box-shadow: 0px 0px 11px rgb(0, 0, 0);
+border-radius: 20px;
+margin-right: 60px;
+    position: absolute;
+    top: 300px;
+ margin-left: -60px;
+}
+
+.f-d-b2{
+
+    width: 50%;
+float: left;
+position: relative;
+
+}
+.feature-box3{
+    padding: 30px;
+    box-shadow: 0px 0px 11px rgb(0, 0, 0);
+border-radius: 20px;
+margin-left: 400px;
+  
+}
+.feature-box4{
+    padding: 30px;
+    box-shadow: 0px 0px 11px rgb(0, 0, 0);
+border-radius: 20px;
+position: absolute;
+margin-left: 520px;
+margin-right: 40px;
+
+   
+
+}
+
+.feature-box img{
+
+}
+.feature-box h1{
+
+}
+.feature-box p{
+
+} 
+ 
+/* section-2 */
+#s-2{
+    width: 100%;
+float: left;
+padding-top:-25px; 
+
+}
+.s-2-wp{
+    width: 40%;
+    float: left;
+    text-align: right;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #233148;
+font-family: 'Work Sans', sans-serif;
+}
+.s-2-head{
+    padding-bottom: 35px;
+}
+.s-2-btn{
+    background-color: #33d2fd;
+    color: white;
+    padding: 12px 23px;
+    margin-top: 20px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.s-2-bp{
+    width: 40%;
+    float: left;
+}
+.div1{
+margin-bottom: 20px;
+border: 1px solid;
+padding: 20px 0px;
+color: #233148;
+font-family: 'Work Sans', sans-serif;
+}
+.div1 img{
+   float: left;
+   padding-left: 20px;
+}
+.div1 h3{
+padding-left: 70px;
+}
+.div2{
+    margin-bottom: 20px;
+    border: 1px solid;
+padding: 20px 0px;
+color: #233148;
+font-family: 'Work Sans', sans-serif;
+}
+.div2 img{
+   float: left;
+   padding-left: 20px;
+}
+.div2 h3{
+    padding-left: 70px;
+}
+.div2 p{
+    padding-left: 70px;
+}
+.div3{
+    margin-bottom: 20px;
+    border: 1px solid;
+padding: 20px 0px;
+color: #233148;
+font-family: 'Work Sans', sans-serif;
+}
+.div3 img{
+   float: left;
+   padding-left: 20px;
+}
+.div3 h3{
+    padding-left: 70px;
+}
+.div4{
+    margin-bottom: 20px;
+    border: 1px solid;
+padding: 20px 0px;
+color: #233148;
+font-family: 'Work Sans', sans-serif;
+}
+.div4 img{
+   float: left;
+   padding-left: 20px;
+}
+.div4 h3{
+    padding-left: 70px;
+}
+
+/* main section  */
+/* #features{
+
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 250px 0px;
+    background: url(../img/class9featurebg.png);
+    background-size: cover;
+    margin-top: -150px;
+    z-index: 2;
+}
+.feature-img-part{
+
+width: 35%;
+float: left;
+
+}
+.feature-img-part img{
+
+}
+.feature-box-part{
+
+    width: 65%;
+    float: left;
+    padding: 50px;
+}
+.f-b{
+
+width: 50%;
+float: left;
+position: relative;
+
+}
+.feature-box{
+padding: 30px;
+position: absolute;
+top:-21px;
+right: 30px;
+box-shadow: 0px 0px 11px rgb(0, 0, 0);
+border-radius: 20px;
+}
+
+.feature-box img{
+
+}
+.feature-box h1{
+
+}
+.feature-box p{
+
+} */
+
+
+
+
+/* section-3 */
+
+#s-3{
+    width: 100%;
+float: left;
+padding-top: 100px;
+}
+.s-3-img-p{
+    width: 50%;
+float: left;
+padding-left: 80px;
+}
+.s-3-wp{
+    width: 40%;
+float: left;
+padding-left: 70px;
+padding-top: 30px;
+}
+.s3h{
+    color: #233148;
+    font-weight: 600;
+    font-family: 'Work Sansbold', sans-serif;   
+}
+.s3-tik{
+    width: 100%;
+float: left;
+margin-top: 20px;
+}
+.s3-tik img{
+    width: 12px;
+float: left;
+margin-top: 6px;
+margin-right: 10px;
+background-color: #33d2fd;
+border-radius: 100%;
+text-align: center;
+}
+.s3-tik h4{
+    width: 50%;
+float: left;
+}
+.s3-global-p{
+    color: #233148;
+font-family: 'Work Sans', sans-serif;
+margin-top: 100px;
+}
+
+/* section-4 */
+
+#s-4{
+    width: 100%;
+float: left;
+background: url(/img/class9herobg.png);
+padding: 100px 200px;
+}
+.s-4-img-p{
+    width: 50%;
+float: left;
+}
+.s-4-wp{
+    width: 50%;
+float: left;
+margin-top: 150px;
+}
+.s-4-wp h2{
+    color: #233148;
+    font-weight: 600;
+    font-family: 'Work Sansbold', sans-serif; 
+}
+.s-4-wp p{
+    color: #233148;
+font-family: 'Work Sans', sans-serif;
+margin-top: 25px;
+}
+.s-4-wp img{
+    margin-top: 30px;    
+}
+.googlepic{
+   padding-left: 25px;
+}
+.position-btn{
+    background-color: #f8447b;
+    color: white;
+    padding: 15px 55px ;
+    position: relative;
+    top: 278px;
+    right: 150px;
+}
+
+/* footer-section*/
+
+#footer{
+    width: 100%;
+    float: left;
+    padding: 100px 100px; 
+    padding-bottom: 200px;
+ 
+}
+.fh{
+    font-weight: 600;
+    font-family: 'Work Sansbold', sans-serif;
+    color: #233148;
+}
+.fp{
+    color: #233148;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+.company{
+    width: 25%;
+    float: left;
+    /* padding-right: 30px ; */
+}
+.development{                                                                                                                                                                                                                                                                                                                                                 
+    width: 25%;
+    float: left;
+    padding-left: 100px ;
+}
+.community{
+    width: 25%;
+    float: left;
+    padding-left: 100px ;
+}
+.info{
+    width: 25%;
+    float: left;
+    padding-left: 100px ;
+}
+.footer-details{
+    width: 100%;
+    float: left;  
+    text-align: center; 
+    color: #233148;
+    padding-top: 100px;
+}
+.footer-btn{
+    background-color: #33d2fd;
+    color: white;
+    padding: 10px ;
+    width: 150px;
+    color: #233148;
+    position: relative;
+    top: 50px;
+    right: -300px;
+    border-radius: 5px;
+}
+
+/* last part css */
+
+
+#copyright{
+    width: 100%;
+    float: left;
+    background-color: #233148;
+    color: white;
+    margin: 0px 0px;
+    padding: 30px 0px;
+}
+h4{
+    width: 50%;
+    float: left;  
+    padding-left: 100px ; 
+}
+.cdn-icons{
+    width: 30%;
+    float: right;
+    margin: 0px 20px;
+}
